@@ -9,7 +9,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/your-username/your-repo.git'
+                git 'https://github.com/sriman0818/Jenkins-CI-CD.git'
             }
         }
 
