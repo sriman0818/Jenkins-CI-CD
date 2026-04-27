@@ -2,16 +2,10 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven'   // configure in Jenkins global tools
+        maven 'Maven'
     }
 
     stages {
-
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/sriman0818/Jenkins-CI-CD.git'
-            }
-        }
 
         stage('Build') {
             steps {
